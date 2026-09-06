@@ -1,0 +1,273 @@
+    1  ls
+    2  pwd
+    3  curl --proto '=https' --tlsv1.2 -LsSf https://install.aiken-lang.org | sh
+    4  source ~/.bashrc
+    5  aikup --version
+    6  aikup
+    7  aiken --version
+    8  find $HOME -type f -name aikup 2>/dev/null
+    9  echo $PATH
+   10  aiken new david/cardano-day1
+   11  cd cardano-day1/
+   12  ls
+   13  vi validators/hello.ak
+   14  aiken check
+   15  aiken build
+   16  ls -lh plutus. json
+   17  cd validators/
+   18  ls
+   19  cd ..
+   20  ls
+   21  ls -lh plutus.json
+   22  sudo apt-get update
+   23  sudo apt-get install -y ca-certificates curl gnupg
+   24  sudo mkdir -p /etc/apt/keyrings
+   25  curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+   26  NODE_MAJOR=22
+   27  echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+   28  sudo apt-get install nodejs -y
+   29  sudo apt install npm
+   30  history
+   31  npm install @meshsdk/core
+   32  npm pkg set type=module
+   33  curl https://preprod.koios.rest/api/v1/tip
+   34  vi create-wallet.js
+   35  npm list @meshsdk/core
+   36  aiken --version
+   37  node --version
+   38  npm init -y
+   39  npm pkg set type=module
+   40  npm install @meshsdk/core @meshsdk/wallet
+   41  npm list @meshsdk/wallet
+   42  npm list @meshsdk/core
+   43  vi wallet.js
+   44  chmod 600 wallet.mnemonic 2>/dev/null
+   45  echo "wallet.mnemonic" >> .gitignore
+   46  node wallet.js
+   47  vi contract.js
+   48  node contract.js
+   49  vi init.js
+   50  node init.js
+   51  node init.js "hello world"
+   52  node contract.js
+   53  vi contract.js 
+   54  node contract.js
+   55  node init.js "hello world"
+   56  npm list @lucid-evolution/lucid
+   57  cd ..
+   58  npm list @lucid-evolution/lucid
+   59  ls
+   60  cd cardano-day1/
+   61  ls
+   62  npm list @lucid-evolution/lucid
+   63  cd node_modules/
+   64  npm list @lucid-evolution/lucid
+   65  cd ..
+   66  ls
+   67  cd ..
+   68  ls
+   69  cd cardano-day1/
+   70  ls
+   71  cp init.js ..
+   72  cp wallet.js ..
+   73  cd ..
+   74  node init.js "hello world"
+   75  cd cardano-day1/
+   76  ls
+   77  cd ..
+   78  npm install @lucid-evolution/lucid
+   79  cd cardano-day1/
+   80  ls
+   81  node init.js "hello world"
+   82  node  contract.js
+   83  node init.js "hello world"
+   84  vi init.js
+   85  cp init.js  init.old
+   86  vi init.js
+   87  node init.js "hello world"
+   88  node  contract.js
+   89  node init.js "hello world"
+   90  histor
+   91  history
+   92  node init.js "hello world"
+   93  vi lucid.js
+   94  node show-contract.js
+   95  node init.js "hello world"
+   96  vi set.js
+   97  vi get.js
+   98  node set.js   "just test"
+   99  node wallet.js
+  100  node -e "
+  101  import('./lucid.js').then(async ({getLucid}) => {
+  102    const lucid = await getLucid();
+  103    console.log(await lucid.wallet().address());
+  104  })
+  105  "
+  106  node -e "
+  107  import('./lucid.js').then(async ({getLucid}) => {
+  108    const lucid = await getLucid();
+  109    console.log(await lucid.wallet().address());
+  110  })
+  111  "
+  112  node wallet.js
+  113  node -e "
+  114  import('./lucid.js').then(async ({getLucid}) => {
+  115    const lucid = await getLucid();
+  116    const utxos = await lucid.wallet().getUtxos();
+  117    console.dir(utxos, {depth:null});
+  118  })
+  119  "
+  120  node -e "
+  121  import('./lucid.js').then(async ({getLucid}) => {
+  122    const lucid = await getLucid();
+  123    const utxos = await lucid.wallet().getUtxos();
+  124    console.dir(utxos, {depth:null});
+  125  })
+  126  "
+  127  node -e "
+  128  import('./lucid.js').then(async ({getLucid}) => {
+  129    const lucid = await getLucid();
+  130    const utxos = await lucid.wallet().getUtxos();
+  131    console.dir(utxos, {depth:null});
+  132  })
+  133  "
+  134  node -e "
+  135  import('./lucid.js').then(async ({getLucid}) => {
+  136    const lucid = await getLucid();
+  137    const utxos = await lucid.wallet().getUtxos();
+  138    console.dir(utxos, {depth:null});
+  139  })
+  140  "
+  141  node -e "
+  142  import('./lucid.js').then(async ({getLucid}) => {
+  143    const lucid = await getLucid();
+  144    const utxos = await lucid.wallet().getUtxos();
+  145    console.dir(utxos, {depth:null});
+  146  })
+  147  "
+  148  node wallet.js
+  149  ls
+  150  cat wallet.mnemonic
+  151  cp wallet.mnemonic   wallet.mnemonic_bakcu
+  152  cp wallet.mnemonic  wallet.mnemonic_back1
+  153  cp wallet.mnemonic  wallet.mnemonic_back2
+  154  ls
+  155  vi wallet.mnemonic
+  156  node -e "
+  157  import('./lucid.js').then(async ({getLucid}) => {
+  158    const lucid = await getLucid();
+  159    const utxos = await lucid.wallet().getUtxos();
+  160    console.dir(utxos, {depth:null});
+  161  })
+  162  "
+  163  node set.js   "just test"
+  164  node get.js   "just test"
+  165  node set.js   "crony"
+  166  node set.js   "junk"
+  167  node get.js  
+  168  node set.js   "junk2"
+  169  node get.js  
+  170  node -e "
+  171  import('./lucid.js').then(async ({getLucid}) => {
+  172    const { getScriptAddress } = await import('./contract.js');
+  173    const { Data } = await import('@lucid-evolution/lucid');
+  174    const lucid = await getLucid();
+  175    const address = getScriptAddress();
+  176    const utxos = await lucid.utxosAt(address);
+  177    console.log('UTXO count:', utxos.length);
+  178    for (const u of utxos) {
+  179      console.log('\n----------------');
+  180      console.log(u.txHash + '#' + u.outputIndex);
+  181      console.log('assets:', u.assets);
+  182      console.log('datum:', u.datum);
+  183      if (u.datum) {
+  184        try {
+  185          console.dir(Data.from(u.datum), {depth:null});
+  186        } catch (e) {
+  187          console.log('Datum decode failed:', e.message);
+  188        }
+  189      }
+  190    }
+  191  })
+  192  "
+  193  ls
+  194  history
+  195  ls
+  196  cd cardano-day1/
+  197  ls
+  198  vi lucid.js
+  199  node -e "
+import('./lucid.js').then(async ({getLucid}) => {
+  const lucid = await getLucid();
+  console.log(await lucid.wallet().address());
+})
+"
+  200  vi contract.js
+  201  node -e "
+import('./lucid.js').then(async ({getLucid}) => {
+  const { getScriptAddress } = await import('./contract.js');
+  const { Data } = await import('@lucid-evolution/lucid');
+
+  const lucid = await getLucid();
+  const address = getScriptAddress();
+  const utxos = await lucid.utxosAt(address);
+
+  console.log('UTXO count:', utxos.length);
+
+  for (const u of utxos) {
+    console.log('\n----------------');
+    console.log(u.txHash + '#' + u.outputIndex);
+    console.log('assets:', u.assets);
+    console.log('datum:', u.datum);
+
+    if (u.datum) {
+      try {
+        console.dir(Data.from(u.datum), {depth:null});
+      } catch (e) {
+        console.log('Datum decode failed:', e.message);
+      }
+    }
+  }
+})
+"
+  202  node wallet.js
+  203  vi wallet.js
+  204  vi balance.js
+  205  node balance.js
+  206  node  set.js "bond....james bond"
+  207  vi set.js
+  208  cp set.js   set.js_OLD_preprod
+  209  vi set.js
+  210  node  set.js "bond....james bond"
+  211  node init.js
+  212  node  set.js "bond....james bond"
+  213  node get.js
+  214  node init.js
+  215  node get.js
+  216  node  set.js "bond....james bond"
+  217  node get.js
+  218  pwd
+  219  ls
+  220  cat wallet.mnemonic
+  221  ls -l .gitignore
+  222  cat  .gitignore
+  223  node balance.js
+  224  ls
+  225  cat wallet.mnemonic
+  226  cat wallet.mnemonic_back1
+  227  cat wallet.mnemonic_back2
+  228  git check-ignore -v wallet.mnemonic
+  229  cd ..
+  230  git check-ignore -v wallet.mnemonic
+  231  ls
+  232  cd cardano-day1/
+  233  ls
+  234  cat wallet.mnemonic
+  235  rm wallet.mnemonic_ba*
+  236  ls
+  237  pwd
+  238  echo "# cardanoMainnet_day1" >> README.md
+  239  git init
+  240  git check-ignore -v wallet.mnemonic
+  241  git add README.md
+  242  history > hist5.dat

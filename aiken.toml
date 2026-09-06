@@ -1,0 +1,18 @@
+name = "david/cardano-day1"
+version = "0.0.0"
+compiler = "v1.1.23"
+plutus = "v3"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'david/cardano-day1'"
+
+[repository]
+user = "david"
+project = "cardano-day1"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "v3.1.0"
+source = "github"
+
+[config]
