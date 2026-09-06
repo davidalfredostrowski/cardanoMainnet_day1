@@ -1,0 +1,21 @@
+ubuntu@ip-172-31-9-73:~/cardano-day1$ node  set.js "bond....james bond2"
+Script address:
+addr1w90fpq8yd2r7ej9deh882xe86j76r0qmdxdd93629w6crsqwkczfr
+
+Found 1 total UTXO(s) at script address.
+
+Current state UTXO:
+f40373f789d74f38deca56a8396b618dd1b1e2d284ca2b5691780c181fcde9be#0
+Assets: { lovelace: 3000000n }
+Current storedData: "bond....james bond"
+
+Changing storedData to: "bond....james bond2"
+
+SET transaction submitted successfully:
+7d6ce1daf4a072b6ec463367f49c5fb5bbedc6a82ff39019fd0074e8c8e5d535
+
+After confirmation run:
+node get.js
+ubuntu@ip-172-31-9-73:~/cardano-day1$ node get.js
+storedData = bond....james bond
+ubuntu@ip-172-31-9-73:~/cardano-day1$
