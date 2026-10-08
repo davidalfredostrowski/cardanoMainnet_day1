@@ -45,6 +45,11 @@
    45  echo "wallet.mnemonic" >> .gitignore
    46  node wallet.js
    47  vi contract.js
+
+vi lucid.js     # under project directory
+
+
+
    48  node contract.js
    49  vi init.js
    50  node init.js
